@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js" integrity="sha512-9mpsATI0KClwt+xVZfbcf2lJ8IFBAwsubJ6mI3rtULwyM3fBmQFzj0It4tGqxLOGQwGfJdk/G+fANnxfq9/cew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat socket io</title>
+    
+   
+</head>
+<body>
+    <h1>ingreso</h1>
+  <form id="formProductos">
+       
+        <input type="text" id="name">
+     
+        <input type="text" id="price">
+        
+        <input type="text" id="IMG">
+        <button id="submit">Enviar</button>
+   
+    </form>
+
+    <div id="TablaSalida"></div>
+
+
+    <div>
+        <h1>Centro de mensajes</h1>
+        <input type="text" id="Gmail">
+        <div id="chat">
+
+        </div>
+        <input type="text" id="mensaje"> 
+        <button id="envio">Enviar!</button>
+    </div>
+   
+    
+    
+    <script src="chat.js"></script>
+</body>
+</html>
